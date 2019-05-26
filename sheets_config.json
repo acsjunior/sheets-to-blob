@@ -1,0 +1,23 @@
+{
+    "scopes": ["https://www.googleapis.com/auth/spreadsheets.readonly"],
+    "token_filename": "token.pickle",
+    "credentials_filename": "credentials.json",
+    "service": ["sheets", "v4"],
+    "workbooks": [
+        {
+            "name": "Workbook Name",
+            "file_name": "workbook-name",
+            "id": "workbook id",
+            "owner": "optional",
+            "active": true,
+            "sheets": [
+                {
+                    "name": "Sheet Name",
+                    "file_name": "sheet-name",
+                    "range": "example: A1:AN",
+                    "active": true
+                }
+            ]
+        }
+    ]
+}
